@@ -10,6 +10,7 @@
 
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
+import styles from './styles.scss'
 
 const instructions = Platform.select({
     ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -19,7 +20,7 @@ const instructions = Platform.select({
 });
 
 interface Props {}
-export default class Tutorial extends Component<Props> {
+export default class Index extends Component<Props> {
     render() {
         return (
             <View style={styles.container}>
@@ -31,21 +32,21 @@ export default class Tutorial extends Component<Props> {
     }
 }
 
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: '#F5FCFF',
-    },
-    welcome: {
-        fontSize: 20,
-        textAlign: 'center',
-        margin: 10,
-    },
-    instructions: {
-        textAlign: 'center',
-        color: '#333333',
-        marginBottom: 5,
-    },
-});
+// const styles = StyleSheet.create({
+//     container: {
+//         flex: 1,
+//         justifyContent: 'center',
+//         alignItems: 'center',
+//         backgroundColor: '#F5FCFF',
+//     },
+//     welcome: {
+//         fontSize: 20,
+//         textAlign: 'center',
+//         margin: 10,
+//     },
+//     instructions: {
+//         textAlign: 'center',
+//         color: '#333333',
+//         marginBottom: 5,
+//     },
+// });

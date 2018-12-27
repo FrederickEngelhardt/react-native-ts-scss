@@ -1,0 +1,17 @@
+@import '../../stylesheets/_helpers.scss';
+
+.container {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5FCFF;
+}
+
+.welcome {
+  font-size: $large-font;
+  text-align: center;
+}
+
+.instructions {
+  font-size: 20px;
+}
